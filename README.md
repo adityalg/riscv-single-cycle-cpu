@@ -48,5 +48,4 @@ The project is intended as a learning-oriented yet structurally clean CPU design
 
 ---
 
-## Project Structure
 
