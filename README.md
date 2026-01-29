@@ -5,18 +5,6 @@ The project is intended as a learning-oriented yet structurally clean CPU design
 
 ---
 
-## Current Status
-
-✔ Single-cycle datapath  
-✔ Modular RTL design  
-✔ Fully functional ALU and register file  
-✔ Correct immediate generation and PC control  
-✔ Clean control-signal-driven muxing  
-
-The CPU has been tested at the module level and is ready for system-level simulation using a testbench.
-
----
-
 ## Supported Instructions (RV32I Subset)
 
 ### R-type
@@ -56,7 +44,7 @@ The CPU has been tested at the module level and is ready for system-level simula
   - Write-back selection (ALU / memory / PC+4)
   - PC update selection (PC+4 / branch target / jump target)
 
-A detailed datapath diagram will be added in a future update.
+
 
 ---
 
